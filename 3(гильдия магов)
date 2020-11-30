@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+
+
+int main() 
+
+{
+    
+    int charisma=5, luck=5, intelligence=10;
+    std::cout << " Chitmag: Hi traveler! " << std::endl ;
+    std::cout << " -Hello! I wanna study in Guild of mags. " << std::endl ;
+    
+    if (intelligence >= 9) 
+    
+    std::cout << " Okey, you can start tommorow! " << std::endl ;
+    
+    else 
+    std::setlocale ;
+    
+    std::cout << " Sorry, you cannot join us cause you are not smart enough. " << std::endl ;
+    
+    return 0;    
+}
