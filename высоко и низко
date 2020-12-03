@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main()
+
+{
+    int nlevel;
+    int next_level;
+
+    nlevel = 0;
+    std::cin >> next_level;
+    nlevel - next_level;
+    
+    if (next_level == nlevel) std::cout << "go straight!" << std::endl;
+    else if (nlevel - next_level > 10) std::cout << "it's dead end, reload the game!" << std::endl;
+    else if (nlevel - next_level) std::cout << "game over!" << std::endl;
+
+    return 0;
+}
