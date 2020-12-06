@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+
+int main()
+
+{
+    int age = 10;
+
+    std::cout << " -Hello! We need you to register on the site. " << std::endl;
+    std::cout << " -Can you please write your age? " << std::endl;
+    
+    if (age >= 10)
+    
+    std::cout << " Welcome to the game! I'm your personal chat-bot and i'll give you advices. " << std::endl;
+    
+    else
+    std::setlocale ;
+    
+    std::cout << " I'm so sorry, but you're too young for this game. I hope that you'll come back when you'll be older! " << std::endl;
+    
+    return 0;
+}
+    
