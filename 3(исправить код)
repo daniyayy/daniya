@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+
+int main()
+
+{
+    int N;// колличество пользователей
+    std::cout << N;
+    
+    if (N == 0)
+    std::setlocale;
+    std::cout << " So sad! Right now on forum only " << N << " person. Do you wanna be the fist? " << std::endl;
+    
+   if (N <= 5) 
+   std::cout << " Now on site " << N << " people. Do you wanna join the team? " << std::endl;//например 5 пользователей, меняем окончание
+   
+   if (N <= 21)
+   std::cout << " Now on site " << N << " people. Do you wanna join the team? " << std::endl;//например 21 пользователь
+   
+   else
+   std::setlocale;
+   std::cout << " Now on site " << N << " people. Do you wanna join the team? " << std::endl;//например 62 пользователя
+   
+    return 0;
+}
