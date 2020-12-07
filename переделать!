@@ -1,0 +1,38 @@
+#include <iostream>
+
+/*ситуация: герой возвращается к Олдрику просто поболтать.*/
+int main()
+{
+    
+    int relation; //отношения героя и Олдрика
+ 
+    std::cout << " Hello my dear friend " << std::endl;
+    
+    std::cout << std::endl << " 1. Let's sell products together " << std::endl;
+    std::cout << std::endl << " 2. There're few things that you don't know " << std::endl;
+    std::cout << std::endl << " 3. Rumors! " << std::endl;
+    std::cout << std::endl << " 4. I don't wanna talk with you,BYE! " << std::endl;
+
+    int N = 0;
+    std::cin >> N;
+    
+    switch ( N ) {
+    case 1:
+      std::cin << ('sell products together')
+    break;
+    case 2:
+       std::cin << ('talk about secrets')
+    break;
+    case 3:
+       std::cin << ('talk about rumors')
+    break;
+    case 4:
+       std::cin << ('start fighting with Oldrik')
+    break;
+    
+     
+    }
+    
+    
+    return 0;
+}
