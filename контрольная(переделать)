@@ -1,0 +1,33 @@
+#include <iostream>
+
+int main()
+
+{
+    
+    std::cout << " Enter a number. " << std::endl;
+    int N = 0;
+    std::cin >> N;
+    
+    if (N = 1) { //Если полученное значение равно 1.
+        std::cout << " Sensor detected movement. " << N << std::endl;
+    }
+    else
+    {
+        std::cout << " everything is okay. " << N << std::endl;
+    }
+    
+    if (N = -1) { //Если полученное значение равно -1.
+        std::cout << " Problems with connection! " << N << std::endl;
+    } 
+    else
+    {
+        std::cout << " everything is okay. " << N << std::endl;
+    }
+    else  //Иначе.
+    std::setlocale; {
+        std::cout << " Everything is okay! " << N << std::endl;
+}
+
+
+    return 0;
+}
