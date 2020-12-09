@@ -1,0 +1,41 @@
+#include <iostream>
+
+int main()
+
+{
+    
+	int relation; //отношение Олдрика к герою
+	int answ; //ответ Героя
+	setlocale(0, "ru");
+	std::cout << "Приветствую, Странник" << std::endl;
+
+	std::cout << std::endl << "1. - Let's sell products together!" << std::endl;
+	std::cout << "2. - I killed your faily!" << std::endl;
+	std::cout << "3. - Rumors" << std::endl;
+	std::cout << "4. - I don't wanna talk with you,BYE!" << std::endl;
+
+	std::cout << std::endl << "Choose an action" << std::endl;
+	std::cin >> answ;
+
+switch ( answ )
+{
+    case 1:
+      std::cout << ("Okey, let's go!") << std::endl;
+    break;
+    case 2:
+       std::cout << ("I'll avenge you") << std::endl;
+    break;
+    case 3:
+       std::cout << ("talk about rumors") << std::endl;
+    break;
+    case 4:
+       std::cout << ("start fighting with Oldrik") << std::endl;
+    break;
+    default:
+    std::cout << ("game over") << std::endl;
+}
+
+
+	return 0;
+	
+}
