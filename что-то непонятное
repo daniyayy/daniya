@@ -1,0 +1,39 @@
+#include <iostream>
+
+int main()
+{
+    bool trigger = true;
+    int password;
+    
+    std::cout << "Ведите цифру для выбора команды" << std::endl;
+    std::cin >> password;
+    if (password == 0)
+        std::cout << "верный выбор!" <<std::endl;
+    else {
+        trigger = false;
+        std::cout << "Не верно(" << std::endl;
+    }
+    
+    while (trigger) {
+        int answ;
+        
+        std::cout << " программа не заканчивается" << std::endl;
+        std::cout << "хотите ли вы, чтобы программа не заканчивалась?" << std::endl;
+        std::cout << "1. Да  2. Нет  3.Не знаю" << std::endl;
+        std::cin >> answ;
+        
+        switch (answ) {
+        case 1:
+            std::cout << "отлично!" << std::endl;
+            break;
+        case 2:
+            std::cout << "как так!?" << std::endl;
+            break;
+        default:
+            std::cout << "Ну хорошо" << std::endl;
+        }
+    }
+    
+     return 0;
+}
+
