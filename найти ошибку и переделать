@@ -1,0 +1,53 @@
+#include <iostream>
+
+int main() 
+
+{
+    bool trigger = true;
+    int answ;
+    
+    std::cout << "Ведите цифру для выбора команды" << std::endl;
+    
+    while (trigger) {
+        
+        std::cout << "Вы остановились в середине игры" << std::endl;
+        std::cout << "Выберите одно действие" << std::endl;
+        std::cout << "1. Продолжить  2. Начать новую игру  3.Сохранить пройденное  4.Выйти" << std::endl;
+        std::cin >> answ;
+    
+        
+        switch (answ) {
+        case 1:
+            std::cout << "Удачи вам!" << std::endl;
+            break;
+            switch(answ) 
+        case 2:
+            std::cout << "Введите имя нового персонажа" << std::endl;
+            break; 
+            switch (answ) 
+        case 3:
+            std::cout << "Маг" << std::endl;
+        //} 
+        switch (answ) 
+        case 4:
+            std::cout << "Вы уверены?" << std::endl;
+            std::cout << "1. Да  2.Нет" << std::endl;
+            std::cin >> answ;
+            
+            //switch
+            switch(answ) 
+                case 1:
+                std::cout << "Выполнить выход из игры" << std::endl;
+                break; 
+                switch(answ) 
+               case 2:
+               std::cout << "Остаться в игре" << std::endl;
+               break; 
+        default:
+        std::cout << "Определись!" << std::endl;
+            }
+            
+    }
+    
+     return 0;
+}
