@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+    string name, name1 = "Vasya_dragon_killer", name2 = "Querty";
+    string password, password1 = "123", password2 = "querty";
+    bool smth = true;
+    do {
+        cout << "Login:";
+        cin >> name;
+        cout << "Password:";
+        cin >> password;
+        if (name == name1 && password == password1) {
+            cout << "Hello, Vasya!" << endl;
+            smth = false;
+        else (name == name2 && password == password2)
+        }
+        cout << "Hello, Querty!" << endl;
+        smth = false;
+        else cout << " Incorrect, pls try again!" << endl;
+        while (smth); }
+     return 0;
+
+}
