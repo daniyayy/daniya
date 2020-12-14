@@ -1,0 +1,67 @@
+#include <iostream>
+
+//Это игра по истории Аладина.Выбор действий влияет на последующие события. К каждому действию полагается свое последствие// 
+
+int main()
+
+{
+	int answ; //действие Аладина
+	
+	std::cout << "What will do Aladin if ...?" << std::endl;
+
+	std::cout << std::endl << "1. - Jafar promisses him money if he'll still the lamp" << std::endl;
+	std::cout << "2. - Another man already stole tha lamp" << std::endl;
+	std::cout << "3. - Sultan doesn't want hid daugter to be a wife of Aladin" << std::endl;
+	std::cout << "4. - Jafar wants to kill Aladin" << std::endl;
+	std::cout << "5. - Another action" << std::endl;
+
+	std::cout << std::endl << "Choose an action" << std::endl;
+	std::cin >> answ;
+
+	switch (answ)
+	{
+	case 1:
+		if (answ == 1)
+			std::cout << ("Still the lamp, kill Jafar and take his money") << std::endl;
+	case 2:
+		if (answ == 2)
+			std::cout << ("Find this man and still the lamp") << std::endl;
+	case 3:
+		if (answ == 3)
+			std::cout << ("Run away with Jasmin from Sultan") << std::endl;
+	case 4:
+		if (answ == 4)
+			std::cout << ("Take Jafar's money and become a prince") << std::endl;
+
+	default:
+	case 5:
+		if (answ == 5)
+			std::cout << ("Game over") << std::endl;
+	}
+	int answ2; //действие Аладина
+
+	std::cout << std::endl << "What will happen next?" << std::endl;
+	std::cin >> answ2;
+
+	switch (answ2)
+	{
+	case 6:
+		if (answ2 == 1)
+			std::cout << ("Become Sultan's friend and fall in love with Jasmin") << std::endl;
+		case 7:
+			if (answ2 == 2)
+				std::cout << ("Run away from Jafar and live with his money") << std::endl;
+			case 8:
+				if (answ2 == 3)
+					std::cout << ("Make with her children and live in happiness and love") << std::endl;
+				case 9:
+					if (answ2 == 4)
+						std::cout << ("Live with Jasmin and become her husband") << std::endl;
+					default:
+					case 10:
+						if (answ2 == 5)
+							std::cout << ("Exit") << std::endl;
+	}
+	return 0;
+
+}
