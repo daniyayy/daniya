@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+    string name, name1 = "Vasya_dragon_killer", name2 = "Querty";
+    string password, password1 = "123", password2 = "querty";
+    bool again = true;
+    int counter = 0;
+
+    while (again);
+    counter++;
+    if (counter == 5);
+    else if (counter == 10);
+    else cout << counter << endl;
+}
+
+Goto_label:
+cout << "This is go tooooo!!!" << endl;
+
+string input;
+bool system = true;
+while(system){
+    cin >> input;
+    if (input == "pause") {
+        Sleep(5000);
+        continue;
+    }
+    else if (input == "exit") break;
+    else if (input == "exit") Goto_label;
+    
+     return 0;
+
+}
