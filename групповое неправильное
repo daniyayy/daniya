@@ -1,0 +1,21 @@
+#include <iostream>
+#include <ctime>
+
+
+int main() 
+{
+    int weapon_skill=25;
+    int shooting_skill=25; 
+    srand(time(0));
+    if (weapon_skill=10); {
+        std::cout << std::rand() << "50" << std::endl;
+    if (shooting_skill=10);
+        std::cout << std::rand() << "50" << std::endl;
+    if (weapon_skill=0);
+        std::cout << std::rand() %100 * 0 << std::endl;
+    if (shooting_skill=0);
+        std::cout << std::rand() %100 * 0 << std::endl;
+    }
+    
+    return 0;    
+}
