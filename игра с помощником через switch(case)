@@ -1,0 +1,100 @@
+#include <iostream>
+using namespace std;
+
+
+int relation;//отношение Nino к пользователю
+int answ;//ответ пользователя
+int tasks;//задачи
+int remake;//кол-во переделанных задач
+int n_remake;//кол-во переделанных задач
+int p_remake;//кол-во переделанных задач
+int choise;//выбор пользователя
+int errors;//ошибки в задачах
+
+int main() {
+	cout << "Hello, when did you enter the laboratory the last time?" << endl;
+
+	cout << "1. - I entered yesterday." << endl;
+	cout << "2. - I entered 5 days ago." << endl;
+	cout << "3. - I entered 2 weeks ago." << endl;
+
+	cout << "How will Nino talk to you?" << endl;
+
+	cout << endl << "Choose a period of the time." << endl;
+	cin >> answ;
+
+	switch (answ)
+	{
+	case 1:
+		if (answ == 1)
+			cout << ("Exelent, keep up the good work!") << endl;
+	case 2:
+		if (answ == 2)
+			cout << ("All right, it's time to work harder!!!") << endl;
+	case 3:
+		if (answ == 3)
+			cout << ("OMG!!! I'm dissapointed...") << endl;
+		break;
+	}
+
+	{
+		cout << endl << "Now you need to tell Nino how many tasks did you do." << endl;
+		cin >> tasks;
+
+		if (tasks < 10) cout << "You need to do more work..." << endl;
+		else cout << "Keep it up!" << endl;
+	}
+	
+	{
+		remake = 20;
+		n_remake = remake - 10;
+		p_remake = remake - 20;
+
+		cout << endl << "Tell Nino how many tasks did you remake." << endl;
+		cin >> choise;
+
+		switch (choise) {
+		case 1:
+			if (choise = remake)
+				cout << "Amazing!" << endl;
+			break;
+		case 2:
+			if (choise = n_remake)
+				cout << "Nice, but you can do better." << endl;
+			break;
+		case 3:
+			if (choise = p_remake);
+				cout << "Why are you doing this to me???" << endl;
+			break;
+		}
+		{   
+			cout << endl << "Tell Nino how many tasks did you do incorrect." << endl;
+		    cin >> answ;
+
+			cout << "1. - 0" << endl;
+			cout << "2. - 5" << endl;
+			cout << "3. - 10" << endl;
+			cout << "4. - more than 10" << endl;
+
+			switch (answ) {
+			case 1:
+				cout << "YEYYY, I'm proud of you!" << endl;
+				break;
+			case 2:
+				cout << "Not bad, not bad." << endl;
+				break;
+			case 3:
+				cout << "OHH, you must remake those tasks." << endl;
+				break;
+			case 4:
+				cout << "NoNoNoNO! You're killing me=(" << endl;
+			break;
+
+			}
+
+		}
+		
+	}
+	return 0;
+
+}
